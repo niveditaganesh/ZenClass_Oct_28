@@ -1,25 +1,25 @@
 setTimeout(function(){
-    console.log(10);
+    document.getElementById('time').innerHTML = 10;
     setTimeout(function(){
-        console.log(9);
+        document.getElementById('time').innerHTML = 9;
         setTimeout(function(){
-            console.log(8)
+            document.getElementById('time').innerHTML = 8;
             setTimeout(function(){
-                console.log(7);
+                document.getElementById('time').innerHTML = 7;
                 setTimeout(function(){
-                    console.log(6);
+                    document.getElementById('time').innerHTML = 6;
                     setTimeout(function(){
-                        console.log(5);
+                        document.getElementById('time').innerHTML = 5;
                         setTimeout(function(){
-                            console.log(4);
+                            document.getElementById('time').innerHTML=4;
                             setTimeout(function(){
-                                console.log(3);
+                                document.getElementById('time').innerHTML=3;
                                 setTimeout(function(){
-                                    console.log(2);
+                                    document.getElementById('time').innerHTML = 2;
                                     setTimeout(function(){
-                                        console.log(1);
+                                        document.getElementById('time').innerHTML = 1;
                                         setTimeout(function(){
-                                            console.log('Happy Independence Day');
+                                            document.getElementById('time').innerHTML = 'Happy Independence Day';
                                         },1000)
                                     },1000)
                                 },1000)
